@@ -28,13 +28,15 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {  
   // "Return" la string provista: str
   // Tu código:
-  
+
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  suma=x+y;
+  return suma;
   
 }
 
