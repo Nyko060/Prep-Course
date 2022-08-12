@@ -149,7 +149,7 @@ function operadoresLogicos(num1, num2, num3) {
   {
     return 'Número 1 es mayor y positivo';
   }
-  else if((num1<0)||(num2<0)||(num3<0))
+  else if(num1<0||num2<0||num3<0)
   {
     return 'Hay negativos';
   }
@@ -157,7 +157,7 @@ function operadoresLogicos(num1, num2, num3) {
   {
     return num3+1;
   }
-  else if((num1=0)||(num2=0)||(num3=0))
+  else if(num1=0||num2=0||num3=0)
   {
     return 'Error';
   }
