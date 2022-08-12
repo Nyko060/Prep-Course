@@ -265,6 +265,10 @@ function esVocal(letra){
   }
   else
   {
+    if(letra.length>1)
+    {
+      return console.log("Es incorrecto");
+    }
     return console.log("Es incorrecto");
   }
 }
