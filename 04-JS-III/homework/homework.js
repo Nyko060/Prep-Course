@@ -111,7 +111,7 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   var acum=0;
-  for(var i=0; i< numeroMasGrande.length;i++>)
+  for(var i=0; i< numeros.length;i++)
   {
     if(numeros[i]>acum)
     {
