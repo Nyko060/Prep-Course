@@ -154,7 +154,7 @@ function operadoresLogicos(num1, num2, num3) {
   }else if(num3>num1&&num3>num2){
     return num3+1;
   }else{return false;}
-
+}
 /*
   if(num1>num2&&num1>num3&&num1>0)
   {
