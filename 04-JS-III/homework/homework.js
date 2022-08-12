@@ -83,6 +83,12 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  var acumulador=0;
+  for(var i=0;i<numeros.length;i++)
+  {
+    acumulador=acumulador+numeros[i];
+  }
+  return acumulador;
 }
 
 
