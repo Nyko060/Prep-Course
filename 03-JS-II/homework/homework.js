@@ -214,10 +214,10 @@ function doWhile(numero) {
   var valor = 0
   do{
     numero = numero + 5;
-    valorr++;
-  }while(valor<8);
+    contador++;
+  }while(contador<8);
  return numero;
- 
+
 }
 
 
