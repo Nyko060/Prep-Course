@@ -74,11 +74,8 @@ function arrayContiene(array, elemento) {
     {
         return true;
     }
-    else
-    {
-      return false;
-    }
   }
+  return false;
 }
 
 
