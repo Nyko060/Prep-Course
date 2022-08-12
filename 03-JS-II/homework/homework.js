@@ -50,6 +50,16 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  switch(idioma) 
+  {
+    case 'aleman': return 'Guten Tag!';
+    break;
+    case 'mandarin': return 'Ni Hao!';
+    break;
+    case 'ingles': return 'Hello!';
+    break;
+    default: return 'Hola!';
+  }
 }
 
 function colors(color) {
