@@ -270,7 +270,7 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   let loop=[];
-  for (var i=0; i<=10;i++) 
+  for (var i=0; i<10;i++) 
   {
     loop.push(numero+2*i)
   if(i===loop.length-1)
