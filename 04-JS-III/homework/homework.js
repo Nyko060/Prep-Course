@@ -138,7 +138,7 @@ function multiplicarArgumentos() {
   {
     for(var i=0;i<arguments.length;i++)
     {
-      acumulador=acumulador+arguments[i];
+      acumulador=acumulador*arguments[i];
     }
   }
   return acumulador;
@@ -151,7 +151,7 @@ function cuentoElementos(arreglo){
     var cont=0;
     for(var i=0; i< arreglo.length;i++)
     {
-      if(arrglo[i]>18)
+      if(arreglo[i]>18)
       {
         cont+=1;
       }
@@ -165,7 +165,7 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-  switch(numerodedia)
+  switch(numeroDeDia)
   {
       case 1:
         return 'Es fin de semana';
