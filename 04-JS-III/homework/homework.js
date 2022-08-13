@@ -235,7 +235,7 @@ function mesesDelAño(array) {
         arrayResultado.push(array[i]);
     }
   }
-  if(arrayResultado.includes("Enero") && arrayResultado.includes("Marzo") && arrayResultado.includes("Noviembre") )
+  if(arrayResultado.length===3)
   {
     return arrayResultado;
   }else
