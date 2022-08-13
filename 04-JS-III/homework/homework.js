@@ -270,7 +270,7 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  var arrayN=[];
+  var arrayNumeros=[];
   for(var i=0; i<10; i++)
   {
     suma=suma+2;
@@ -278,15 +278,14 @@ function breakStatement(numero) {
     {
       break;
     }else{
-      arrayN.push(suma);
+      arrayNumeros.push(suma);
     }
   }
-  if(arrayN.length<10)
-  {
+  if(arrayNumeros.length<10){
     return "Se interrumpió la ejecución";
-  }else if(arrayN.length===10)
+  }else if(arrayNumeros.length===10)
   {
-    return arrayN;
+    return arrayNumeros;
   }
 }
 
